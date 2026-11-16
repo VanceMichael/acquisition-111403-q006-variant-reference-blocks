@@ -81,6 +81,16 @@ export const phases={
       "query": {},
       "headers": {}
     }
+  ],
+  "header-sample-order": [
+    {
+      "path": "/vcf/b",
+      "body": "##fileformat=VCFv4.3\n##reference=ref1\n##FORMAT=<ID=GT,Number=1,Type=String,Description=\"基因型\">\n##FORMAT=<ID=AD,Number=R,Type=Integer,Description=\"等位深度\">\n##FORMAT=<ID=PL,Number=G,Type=Integer,Description=\"基因型似然\">\n#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO\tFORMAT\tplant2\tplant1\n1\t20\t.\tG\tA,C\t.\tPASS\t.\tGT:AD:PL\t1|2:0,6,7:90,80,70,60,0,50\t0/2:3,0,4:10,20,30,40,50,60\n",
+      "method": "GET",
+      "status": 200,
+      "query": {},
+      "headers": {}
+    }
   ]
 };
 export const portalKind="";
